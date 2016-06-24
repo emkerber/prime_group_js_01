@@ -4,6 +4,7 @@ var boo = ["Boo", "11435", "54000", 3];
 var scout = ["Scout", "6243", "74750", 5];
 
 var employees = [atticus, jem, boo, scout];
+<<<<<<< HEAD
 function employeeUpdate(x) {
  var empArray = [];
  var bonus = calculateBonus(x) / 100;
@@ -44,3 +45,5 @@ function calculateBonus(array){
 for (var i = 0; i < employees.length; i++){
  console.log(employeeUpdate(employees[i]));
 };
+=======
+>>>>>>> b025e397e18a0ca3da9c600390c26b692d526d0e
